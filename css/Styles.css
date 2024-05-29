@@ -1,0 +1,147 @@
+/* General Styles */
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header Styles */
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section Styles */
+.hero {
+    background: url('../imgs/hero.jpeg') no-repeat center center/cover;
+    color: white;
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+/* Row Styles */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+/* Column Styles */
+.col-3 {
+    flex: 25%;
+    padding: 15px;
+}
+
+.col-6 {
+    flex: 50%;
+    padding: 15px;
+}
+
+.col-s-3, .col-s-9, .col-s-12 {
+    width: 100%;
+}
+
+/* Menu Styles */
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+}
+
+.menu ul li {
+    margin: 5px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main Content Styles */
+h1 {
+    color: #4CAF50;
+}
+
+p {
+    color: #666;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Aside Styles */
+.aside {
+    background-color: #f4f4f4;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+/* Services Section Styles */
+section {
+    margin-bottom: 30px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .col-3, .col-6 {
+        flex: 100%;
+    }
+}
